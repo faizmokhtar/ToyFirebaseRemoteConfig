@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69212F8B30A71BAE4AF6D4BB /* Pods_ToyFirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3837F8DCF8700853DB5889 /* Pods_ToyFirebaseRemoteConfig.framework */; };
+		983D23D7203BD41200415B62 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D23D6203BD41200415B62 /* UIColor+Hex.swift */; };
 		98798ED4202AA2190040AB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98798ED3202AA2190040AB1C /* AppDelegate.swift */; };
 		98798ED6202AA2190040AB1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98798ED5202AA2190040AB1C /* ViewController.swift */; };
 		98798ED9202AA2190040AB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98798ED7202AA2190040AB1C /* Main.storyboard */; };
 		98798EDB202AA2190040AB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98798EDA202AA2190040AB1C /* Assets.xcassets */; };
 		98798EDE202AA2190040AB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98798EDC202AA2190040AB1C /* LaunchScreen.storyboard */; };
+		98798EE6202AA3780040AB1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98798EE5202AA3770040AB1C /* GoogleService-Info.plist */; };
+		98798EE8202AA67E0040AB1C /* RemoteConfigValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98798EE7202AA67E0040AB1C /* RemoteConfigValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AAA4F3CCB70D11D347F57CD /* Pods-ToyFirebaseRemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyFirebaseRemoteConfig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToyFirebaseRemoteConfig/Pods-ToyFirebaseRemoteConfig.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3837F8DCF8700853DB5889 /* Pods_ToyFirebaseRemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyFirebaseRemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983D23D6203BD41200415B62 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		98798ED0202AA2190040AB1C /* ToyFirebaseRemoteConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyFirebaseRemoteConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98798ED3202AA2190040AB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98798ED5202AA2190040AB1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		98798EDA202AA2190040AB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98798EDD202AA2190040AB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98798EDF202AA2190040AB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98798EE5202AA3770040AB1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98798EE7202AA67E0040AB1C /* RemoteConfigValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigValues.swift; sourceTree = "<group>"; };
+		DAB331A334092627D5D479FC /* Pods-ToyFirebaseRemoteConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyFirebaseRemoteConfig.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToyFirebaseRemoteConfig/Pods-ToyFirebaseRemoteConfig.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69212F8B30A71BAE4AF6D4BB /* Pods_ToyFirebaseRemoteConfig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		704A0CD4E30232D115DC9D22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA4F3CCB70D11D347F57CD /* Pods-ToyFirebaseRemoteConfig.debug.xcconfig */,
+				DAB331A334092627D5D479FC /* Pods-ToyFirebaseRemoteConfig.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		98798EC7202AA2190040AB1C = {
 			isa = PBXGroup;
 			children = (
 				98798ED2202AA2190040AB1C /* ToyFirebaseRemoteConfig */,
 				98798ED1202AA2190040AB1C /* Products */,
+				704A0CD4E30232D115DC9D22 /* Pods */,
+				EF3E52ECE64734E15A36D61F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +77,24 @@
 			isa = PBXGroup;
 			children = (
 				98798ED3202AA2190040AB1C /* AppDelegate.swift */,
+				98798EE7202AA67E0040AB1C /* RemoteConfigValues.swift */,
 				98798ED5202AA2190040AB1C /* ViewController.swift */,
+				983D23D6203BD41200415B62 /* UIColor+Hex.swift */,
 				98798ED7202AA2190040AB1C /* Main.storyboard */,
 				98798EDA202AA2190040AB1C /* Assets.xcassets */,
 				98798EDC202AA2190040AB1C /* LaunchScreen.storyboard */,
+				98798EE5202AA3770040AB1C /* GoogleService-Info.plist */,
 				98798EDF202AA2190040AB1C /* Info.plist */,
 			);
 			path = ToyFirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		EF3E52ECE64734E15A36D61F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3837F8DCF8700853DB5889 /* Pods_ToyFirebaseRemoteConfig.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98798EE2202AA2190040AB1C /* Build configuration list for PBXNativeTarget "ToyFirebaseRemoteConfig" */;
 			buildPhases = (
+				1E06AE525CB3B3485737C234 /* [CP] Check Pods Manifest.lock */,
 				98798ECC202AA2190040AB1C /* Sources */,
 				98798ECD202AA2190040AB1C /* Frameworks */,
 				98798ECE202AA2190040AB1C /* Resources */,
+				0E7789039873B596A6D6B430 /* [CP] Embed Pods Frameworks */,
+				5D96CB3E8B2C63A03E1C79D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98798EDE202AA2190040AB1C /* LaunchScreen.storyboard in Resources */,
+				98798EE6202AA3780040AB1C /* GoogleService-Info.plist in Resources */,
 				98798EDB202AA2190040AB1C /* Assets.xcassets in Resources */,
 				98798ED9202AA2190040AB1C /* Main.storyboard in Resources */,
 			);
@@ -131,12 +168,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E7789039873B596A6D6B430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyFirebaseRemoteConfig/Pods-ToyFirebaseRemoteConfig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E06AE525CB3B3485737C234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D96CB3E8B2C63A03E1C79D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToyFirebaseRemoteConfig/Pods-ToyFirebaseRemoteConfig-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98798ECC202AA2190040AB1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98798ED6202AA2190040AB1C /* ViewController.swift in Sources */,
+				983D23D7203BD41200415B62 /* UIColor+Hex.swift in Sources */,
+				98798EE8202AA67E0040AB1C /* RemoteConfigValues.swift in Sources */,
 				98798ED4202AA2190040AB1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +359,7 @@
 		};
 		98798EE3202AA2190040AB1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAA4F3CCB70D11D347F57CD /* Pods-ToyFirebaseRemoteConfig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +375,7 @@
 		};
 		98798EE4202AA2190040AB1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB331A334092627D5D479FC /* Pods-ToyFirebaseRemoteConfig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
